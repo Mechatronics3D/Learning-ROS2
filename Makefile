@@ -5,7 +5,7 @@ humble-activate:
 	./scripts/activate-humble.sh
 
 humble-install:
-	mamba install compilers cmake pkg-config make ninja colcon-common-extensions
+	mamba install compilers cmake pkg-config make ninja colcon-common-extensions rosdep
 
 install-nvm:
 	curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
