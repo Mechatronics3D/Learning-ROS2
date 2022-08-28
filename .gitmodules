@@ -1,0 +1,3 @@
+[submodule "jupyter-ros"]
+	path = jupyter-ros
+	url = https://github.com/RoboStack/jupyter-ros.git
