@@ -18,3 +18,9 @@ install-node:
 
 install-requirements:
 	pip install jupyterlab jupyter-packaging bqplot pyyaml ipywidgets ipycanvas
+
+deps:
+	rosdep install -i --from-path src --rosdistro humble -y
+
+build:
+	colcon build
